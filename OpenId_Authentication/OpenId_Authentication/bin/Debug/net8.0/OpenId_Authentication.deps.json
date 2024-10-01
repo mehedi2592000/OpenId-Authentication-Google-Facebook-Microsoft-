@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "OpenId_Authentication/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "8.0.6"
+        },
+        "runtime": {
+          "OpenId_Authentication.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/8.0.6": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "8.0.6.0",
+            "fileVersion": "8.0.624.26909"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OpenId_Authentication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authentication.Google/8.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOMroouD9EiSTduJYtN6PnqaQpbscr+3f8osFg/mGW5L6Cg8Igv9P93NLHqyBYvMilXEufgx5kK/5naxnw9VpA==",
+      "path": "microsoft.aspnetcore.authentication.google/8.0.6",
+      "hashPath": "microsoft.aspnetcore.authentication.google.8.0.6.nupkg.sha512"
+    }
+  }
+}
